@@ -1,0 +1,11 @@
+.banner{
+    height: 350px;
+    width: 100%;
+
+}
+
+.banner > img{
+    height: 100%;
+    width: 100%;
+    
+}

@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import logo from "./Assets/logo.png";
 import userImg from "./Assets/user.png";
 
-const Header = () => {
+const Header = ()=> {
   return (
     <div className="container">
       <div className="logo">
         <img src={logo} alt="logo image" />
-      </div>
+      </div>  
       <div className="search-bar">
         <input type="text" placeholder="search"></input>
       </div>  
