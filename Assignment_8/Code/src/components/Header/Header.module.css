@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold; 
+  box-shadow: 0 2px 8px rgba(144, 137, 137, 0.25);
+}
+.nav-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.5rem;
+  }
+  
+  .item{
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+  }
+.logo {
+  margin-left: 5rem;
+}
+
+.logo img {
+  width: 160px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.item img {
+  width: 40px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,8 @@
+.error {
+    max-width: 1250px;
+    text-align: center;
+    margin: 3rem;
+}
+.error h1{
+    padding: 2rem;
+}

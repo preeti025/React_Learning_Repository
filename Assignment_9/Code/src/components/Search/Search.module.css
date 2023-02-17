@@ -1,0 +1,31 @@
+.search-bar {
+    text-align: center;
+    margin: 1px auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .search-count{
+    font-size: 30px;
+    font-weight: bold;
+  }
+.search-bar input {
+  position: relative;
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    font-weight: inherit;
+    border: 1px solid #808080ba;
+    border-radius: 32px;
+    padding-left: 20px;
+    margin-right: 10px;
+  }
+.search{
+  width: 40px;
+  position: absolute;
+  right: 70px;
+  top: 29.1rem;
+}
+.search img{
+  width: 25px;
+}

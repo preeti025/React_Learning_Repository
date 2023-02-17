@@ -1,0 +1,54 @@
+.inner-div{
+    background-color: white;
+    width: 84%;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.img img{
+    width: 100%;
+    height: 150px;
+}
+.name{
+        margin-top: 10px;
+        font-size: 15px;
+        color: #625959;
+        font-weight: bold;
+         text-overflow: ellipsis; 
+        white-space: nowrap; 
+        overflow: hidden; 
+}
+.cuisines{
+    color: #686b78;
+    font-size: 10.5px;
+    height: 15px;
+    margin-top: 6px;
+    word-wrap: break-word;
+}
+.items{
+    margin-top: 18px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    color: #535665;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: #db7c38;
+    color: #fff;
+}
+.star{
+    font-weight: bold;
+}
+.high{
+    background-color: #59db38;
+    color: #fff;
+}
+.rating .avg{
+    margin-left: 3px;
+}

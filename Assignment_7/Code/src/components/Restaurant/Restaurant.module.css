@@ -1,0 +1,13 @@
+.restaurant{
+    max-width: 1270px;
+    min-width: 1270px;
+    margin: 1rem auto;
+    /* align-items: center; */
+    /* border: 1px solid blue; */
+}
+.restaurant-item{
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
