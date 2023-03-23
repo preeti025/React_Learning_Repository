@@ -4,6 +4,7 @@ import styles from "./RestaurantMenu.module.css";
 import { IMG_URL } from "../../Constant";
 import RestaurantMenuItem from "../../components/RestaurantMenuItem/RestaurantMenuItem";
 import Shimmer from "../../components/Shimmer/Shimmer";
+import Search from "../../components/Search/Search";
 
 const RestaurantMenu = () => {
   const [restaurantFoodMenu, setRestaurantFoodMenu] = useState("");
@@ -13,11 +14,10 @@ const RestaurantMenu = () => {
   const fetchRestaurantInfo = async () => {
     setIsLoading(true);
     const response = await fetch(
-      "https://www.swiggy.com/dapi/menu/v4/full?lat=28.5650919&lng=77.381967&menuId=" +
+      "https://corsanywhere.herokuapp.com/https://www.swiggy.com/dapi/menu/v4/full?lat=21.1702401&lng=72.83106070000001&menuId=" +
         resId
     );
     const data = await response.json();
-    console.log(data);
     setRestaurantFoodMenu(data);
     setIsLoading(false);
   };
@@ -73,7 +73,6 @@ const RestaurantMenu = () => {
               </div>
             </div>
           </div>
-
           <div className={styles["restaurant-menu-items"]}>
             {Object.values(restaurantFoodMenu?.data?.menu?.items).map(
               (item) => {

@@ -17,7 +17,7 @@ const Restaurant = () => {
     setIsLoading(true);
     try {
       const response = await fetch(
-        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.5650919&lng=77.381967&page_type=DESKTOP_WEB_LISTING"
+        "https://corsanywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING"
       )
       if(!response.ok){
         throw new Error("Something went wrong..");

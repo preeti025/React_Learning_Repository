@@ -1,20 +1,20 @@
 import Button from "../../components/UI/Button";
 import styles from "./Login.module.css";
 import { useFormik } from "formik";
+import { useDispatch } from "react-redux";
+import { setLogin } from "../../store/authSlice";
 
 const Login = () => {
-  
+  const dispatch= useDispatch();
   const formik = useFormik({
     initialValues: {
       name: "",
       password: "",
     },
     onSubmit: (values) => {
-      console.log("values", values);
-      redirect("/");
+      dispatch(setLogin());
     },
   });
-  console.log( formik.values);
 
   return (
     <div className={styles["form-container"]}>

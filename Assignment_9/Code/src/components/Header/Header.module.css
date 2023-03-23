@@ -3,20 +3,23 @@
   padding: 2px;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold; 
+  font-weight: bold;
+  height: 70px;
   box-shadow: 0 2px 8px rgba(144, 137, 137, 0.25);
 }
-.nav-items{
+.nav-items {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 2.5rem;
-  }
-  
-  .item{
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-  }
+  margin-right: 2rem;
+  position: relative;
+}
+
+.item {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
 .logo {
   margin-left: 5rem;
 }
@@ -30,4 +33,21 @@
   width: 40px;
   cursor: pointer;
 }
+.item1 img {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  cursor: pointer;
+}
 
+.cart {
+  background-color: red;
+  padding: 2px 5px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 2rem;
+  color: white;
+  position: absolute;
+  right: 6.5rem;
+  top: 17px;
+}

@@ -3,7 +3,6 @@ import styles from "./Search.module.css";
 import searchIcon from "../../Assets/search.png";
 
 const Search = (props) => {
-  console.log(props.count);
   const [inputValue, setInputValue] = useState("");
 
   const inputValueChangeHandler = (event) => {

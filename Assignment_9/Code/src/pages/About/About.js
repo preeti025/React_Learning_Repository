@@ -22,7 +22,7 @@ class About extends Component {
   render() {
     console.log("Parent : render call")
     return (
-      <div>
+      <div style={{margin: '3rem'}}>
         <h1 style={{ textAlign: "center" }}>This is About us component</h1>
         {console.log("Parent : return call")}
         <Profile name= {'preeti'}/>

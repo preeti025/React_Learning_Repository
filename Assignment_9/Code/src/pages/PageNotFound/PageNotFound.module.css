@@ -1,8 +1,31 @@
 .error {
     max-width: 1250px;
     text-align: center;
-    margin: 3rem;
 }
 .error h1{
     padding: 2rem;
+}
+.btn{
+    width: 15rem;
+    margin: 1rem auto;
+}
+.btn .button{
+    padding: 1rem 2rem;
+    font-size: inherit;
+    font-weight: bold;
+    background-color:  #db7c38;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #db7c38;
+   margin: 0 auto;
+}
+.button:hover{
+    padding: 1rem 2rem;
+    font-size: inherit;
+    font-weight: bold;
+    background-color: white;
+    color:  #db7c38;
+    border: 1px solid #db7c38;
 }
